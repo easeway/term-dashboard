@@ -1,10 +1,10 @@
 Terminal Dashboard
-------------------
+==================
 
 This shows a dashboard on terminal and updated automatically when data is provided.
 
 How To Use
-==========
+----------
 
 ```bash
 npm install term-dashboard
@@ -42,20 +42,20 @@ workers.start().on('notify', function (worker, state) {
 Execute the test for a sample: `npm test`
 
 Views
-=====
+-----
 
 When constructing a dashboard, `views` defines all named views for data models.
 A "view" defines the rule to render one specific row in dashboard.
 And it is actually an array of renderer configurations for columns.
 
 Layout
-======
+------
 
 `layout` simply defines the rows of the dashboard, with each item called a "slot".
 A slot can be a single row, or a number of rows.
 
 Update Data
-===========
+-----------
 
 Invoke `update` to send data into dashboard and show on a certain row:
 
@@ -69,7 +69,7 @@ Here `slot` and `index` specify which row to show the data. Use `layout` to dete
 Without specifying `data` will clear that row.
 
 Redraw or Reconfigure Layout
-============================
+----------------------------
 
 ```javascript
 dashboard.refresh(layout);
@@ -78,6 +78,6 @@ dashboard.refresh(layout);
 Without `layout` just redraw the whole dashboard. Otherwise reconfigure the layout and redraw.
 
 License
-=======
+-------
 
 MIT/X11
