@@ -1,7 +1,7 @@
 {
     "name": "term-dashboard",
     "description": "A terminal dashboard for monitoring concurrent jobs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Yisui Hu <easeway@gmail.com>",
     "keywords": [
         "terminal", "console", "cli",
